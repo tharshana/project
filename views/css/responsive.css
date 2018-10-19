@@ -1,0 +1,576 @@
+/* lg */
+@media (min-width: 1400px) {
+
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	.banner-info h1 {
+		font-size: 40px;
+	}
+	.banner-info h2 {
+		font-size: 80px;
+	}
+	.product {
+		padding: 30px 15px;
+	}
+	.product-icon ul li {
+		margin-right: 5px;
+	}
+	.products-two .col-md-7 {
+		padding-left: 0;
+	}
+	.farmfood ul li {
+		margin-bottom: 30px;
+	}
+	.food-info h3 {
+		font-size: 20px;
+	}
+	.cta-two .cta-image {
+		margin-top: -56px;
+	}
+	.product-details-info {
+		padding: 0;
+	}
+	.widget {
+		padding: 25px 20px;
+	}
+	.details-slider {
+		margin-top: 40px;
+	}
+	.cta-two .cta-info {
+		padding: 95px 0;
+	}
+	.cta-two .cta-info h2 {
+		font-size: 70px;
+	}
+
+
+}
+
+@media (max-width: 991px) {
+
+	.hidden-md-up {
+		display: block !important;
+	}
+	.tr-menu .find-option{
+		position: absolute;
+		top: 0;
+		right: 80px;
+	}
+	.tr-menu .find-option ul {
+		float: right;
+	}
+	.navbar {
+		padding: 10px 0;
+	}
+	.search-form {
+		top: 2px;
+		right: -20px;
+		width: 655px;
+	}
+	.navbar-collapse {
+		padding-top: 10px;
+	}
+	.navbar-nav .tr-dropdown-menu {
+		min-width: 100%;
+	}
+	.tr-menu .navbar-nav .nav-link {
+		padding: 5px 20px;
+		line-height: 30px;
+	}
+	.promotion-info h1 {
+		font-size: 20px;
+	}
+	.farmfood ul li .icon {
+		font-size: 35px;
+	}
+	.food-info h3 {
+		font-size: 18px;
+		margin-bottom: 0;
+	}
+	.farmfood ul li {
+		margin-bottom: 10px;
+	}
+	.farmfood ul {
+		margin-top: 0;
+	}
+	.footer-bottom .float-left span {
+		display: block;
+		margin-top: 10px;
+	}
+	.footer-bottom .float-left,
+	.footer-bottom .float-right {
+		float: none !important;
+		display: inline-block;
+	}
+	.tr-about .who-we-are {
+		padding-left: 0;
+	}
+	.details-slider .carousel-indicators li {
+		margin-left: 15px;
+	}
+	.tr-author .media,
+	.tr-follow {
+		float: none;
+	}
+	.comment-meta .float-left,
+	.comment-meta .float-right{
+		float: none !important;
+		display: block;
+	}
+	.comment-list .children {
+		margin-left: 20px;
+	}
+	.commenter-avatar {
+		width: 60px;
+		height: 60px;
+		margin-right: 10px;
+	}
+	.tr-follow {
+		margin-top: 10px;
+	}
+
+}
+
+
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.navbar-brand {
+		padding-left: 15px;
+	}
+	.navbar-nav .tr-dropdown-menu {
+		left: 20px;
+	}
+	.countdown li {
+		padding: 0 15px;
+	}
+	.products-two .col-md-7 {
+		padding-left: 0;
+	}
+	.footer-bottom {
+		text-align: center;
+	}
+	.banner-info h1 {
+		font-size: 36px;
+	}
+	.banner-info h2 {
+		font-size: 70px;
+	}
+	.slider-two .banner-info h2 {
+		font-size: 60px;
+	}
+	.tr-promotion .promotion {
+		background-position: 135px bottom;
+	}
+	.section-title h1 {
+		font-size: 24px;
+	}
+	.section-title h2 {
+		font-size: 36px;
+	}
+	.cta-info h2 {
+		font-size: 50px;
+	}
+	.cta-info h3 {
+		font-size: 20px;
+	}
+	.tr-about .who-we-are {
+		margin-top: 0;
+	}
+	.tr-about h1 {
+		font-size: 24px;
+	}
+	.tr-about h2 {
+		font-size: 40px;
+	}
+	.watch-video {
+		height: 345px;
+	}
+	.pricing-content .tab-content {
+		padding: 30px 15px;
+	}
+	.cta-two .cta-image {
+		margin-top: -50px;
+	}
+	.cta-two .cta-info {
+		padding: 50px 0;
+	}
+	.pricing .price h1 {
+		font-size: 70px;
+	}
+	.btn.btn-primary {
+		font-size: 16px;
+	}
+	.page-title h1 {
+		font-size: 36px;
+	}
+	.page-title h2 {
+		font-size: 70px;
+	}
+	.widget {
+		padding: 25px 20px;
+	}
+	.total-surface span {
+		font-size: 45px;
+	}
+	.post-inner-image {
+		margin: 30px 0 10px;
+	}
+	.total-surface {
+		margin-bottom: 0;
+	}
+	blockquote {
+		font-size: 24px;
+		line-height: 35px;
+	}
+	.blog-social li a {
+	    padding: 8px 25px;
+	}
+	.form-content.section-bg-white {
+		padding:50px 30px;
+	}
+	.tr-menu .float-right li {
+		padding: 24px 10px;
+	}
+	.cta-two .cta-info h2 {
+		font-size: 55px;
+	}
+
+}
+
+
+/* xs */
+@media (max-width: 767px) {
+
+	.banner-info h2 {
+		font-size: 75px;
+	}
+	.navbar-brand img {
+		max-width: 65%;
+	}
+	.tr-menu .find-option {
+		top: 0;
+	}
+	.navbar-toggler-right {
+		top: 5px;
+	}
+	.tr-menu .float-right li,
+	.hompage-2 .tr-menu .float-right li {
+		font-size: 18px;
+		padding:14px 5px;
+	}
+	.tr-menu .float-right li .remove-item{
+		padding:10px;
+	}
+	.search-form {
+		width: 300px;
+		right: -30px;
+		top: -3px;
+	}
+	.banner-info {
+		font-size: 16px;
+	}
+	.banner-info h1 {
+		font-size: 26px;
+	}
+	.banner-info h2 {
+		font-size: 40px;
+	}
+	.tr-promotion .promotion {
+		margin-bottom: 15px;
+	}
+	.promotion-info {
+		max-width: 250px;
+	}
+	.section-title h1 {
+		font-size: 22px;
+	}
+	.section-title h2 {
+		font-size: 30px;
+	}
+	.product {
+		margin-bottom: 15px;
+	}
+	.farmfood ul li {
+		display: block;
+		overflow: hidden;
+	}
+	.farmfood ul li>.icon {
+		margin-right: 0 !important;
+		padding:0 15px;
+		width: 70px;
+		float: left;
+		text-align: left;
+		margin-left: 0 !important;
+	}
+	.farmfood ul li .food-info {
+		float: right;
+		text-align: left;
+		width: 80%;
+	}
+	.cta-image {
+		margin-bottom: 30px;
+	}
+	.cta-info h2{
+		font-size: 36px;
+	}
+	.cta-info h3 {
+		font-size: 18px;
+	}
+	.footer-bottom {
+		text-align: center;
+	}
+	.payment-card {
+		border-right: 0;
+		margin-bottom: 10px;
+	}
+	.payment-card li {
+		float: none;
+		display: inline-block;
+	}
+	.payment-card img {
+		display: inline-block;
+	}
+	.footer-bottom .select-option li:first-child {
+		margin-left: 0;
+	}
+	.countdown li {
+		padding: 0 15px;
+		font-size: 26px;
+	}
+	.countdown li p {
+		font-size: 10px;
+	}
+	.btn.btn-primary {
+		font-size: 14px;
+		padding: 10px 25px;
+	}
+	.farmfood-two .farmfood {
+		margin-bottom: 15px;
+	}
+	.products-two .product {
+		text-align: center;
+	}
+	.pricing-content .tab-content {
+		padding: 20px 0;
+	}
+	.pricing-one ul li {
+		margin-bottom: 30px;
+	}
+	.banner-image {
+		display: none;
+	}
+	.pricing-one ul {
+		padding: 0;
+	}
+	.pricing-tabs .nav-item {
+		margin-right: 15px;
+	}
+	.tr-about h1 {
+		font-size: 22px;
+	}
+	.tr-about h2 {
+		font-size: 30px;
+	}
+	.watch-video {
+		height: 300px;
+	}
+	.watch-video .video-link {
+		font-size: 70px;
+	}
+	.cta-two .cta-image {
+		display: none;
+	}
+	.cta-two .cta-info {
+		text-align: center;
+		padding: 80px 0;
+	}
+	.section-bg-white.pricing-two {
+		padding: 0 15px;
+		background-color: transparent;
+	}
+	.pricing-two .price {
+		border-radius: 4px;
+	}
+	.pricing .price,
+	.tr-post {
+		margin-bottom: 15px;
+	}
+	.pricing .price h1 {
+		font-size: 60px;
+	}
+	.page-title h2 {
+		font-size: 40px;
+	}
+	.page-title h1 {
+		font-size: 26px;
+	}
+	.add-to-cart span a {
+	    padding: 7px 10px;
+	    font-size: 18px;
+	}
+	.gb-sidebar {
+		margin-top: 15px;
+	}
+	.product-details-info .product-title {
+		font-size: 24px;
+	}
+	.widget {
+		margin-bottom: 15px;
+	}
+	.section-padding {
+		padding: 80px 0;
+	}
+	.slick-dots {
+	    bottom: -30px;
+	}
+	.main-content {
+		padding: 50px 0;
+	}
+	.tr-menu .navbar-nav .nav-link {
+		padding: 5px 0;
+	}
+	.post-inner-image .inner-image {
+	    margin-top: 15px;
+	}
+	.total-surface span {
+	    font-size: 35px;
+	}
+	.post-inner-image {
+	    margin: 15px 0;
+	}
+	.blockquote {
+		margin: 30px 0;
+	}
+	blockquote {
+	    font-size: 20px;
+	    line-height: 26px;
+	}
+	.blog-social li,
+	.blog-social li i {
+		margin-right: 5px;
+	}
+	.blog-social li a {
+		padding: 5px 15px;
+	}
+	.product-details-info {
+		padding: 15px 0;
+	}
+	.related-products h1 {
+		font-size: 26px;
+	}
+	.main-content .section-bg-white {
+		padding: 30px 15px;
+		margin-bottom: 15px;
+	}
+	.blog-two .entry-content {
+		padding: 30px 15px;
+	}
+	.tr-pagination {
+		margin-bottom: 20px;
+	}
+	.pagination > li > .page-numbers, .pagination > li > span {
+		padding:15px 5px;
+	}
+	.account-content {
+		padding: 50px 30px;
+		width: 350px;
+		border: solid black 1px!important;
+	}
+	.user-account h1 {
+		font-size: 30px;
+	}
+	.user-account .social li a {
+	    font-size: 18px;
+	    padding: 5px 40px;
+	}
+	#gmap {
+		height: 300px;
+	}
+	.contact-form {
+		margin-top: 30px;
+	}
+	.contact-form .form-control,
+	.contact-info .media,
+	.tr-address span {
+		margin-bottom: 15px;
+	}
+	#home-carousel .carousel-item .banner-info {
+		margin-top: -50px;
+	}
+	#home-carousel.slider-two .carousel-item .banner-info {
+		margin-top: 0;
+	}
+	.item-middle {
+		height: 550px;
+	}
+	.testimonial-content .carousel-indicators li {
+		width: 50px;
+		height: 50px;
+	}
+	.testimonial-title {
+		margin-top: 15px;
+		padding-top: 20px;
+	}
+	#testimonial-carousel {
+		padding-top: 80px;
+	}
+	.farmfood-image {
+		display: none;
+	}
+	.tr-farmfood.farmfood-one {
+		padding: 80px 0;
+	}
+	.cart-number,
+	.hompage-2 .cart-number {
+		bottom: 10px;
+	}
+	.cta-two .cta-info h2 {
+		font-size: 45px;
+	}
+}
+
+/* XS Portrait */
+@media (max-width: 575px) {
+	.farmfood ul li .food-info {
+		width: 75%;
+	}
+	.tr-menu .container {
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.testimonial-content .carousel-indicators li {
+		width: 30px;
+		height: 30px;
+		margin-left: 0;
+	}
+	#testimonial-carousel {
+		padding-top: 50px;
+	}
+	.banner-info .btn.btn-primary {
+		margin-top: 10px;
+	}
+}
+
+/* XS Portrait */
+@media (max-width: 479px) {
+
+	.cart-content .tr-dropdown-menu {
+	    right: -62px !important;
+	}
+	.account-content {
+		width: 290px;
+	}
+	.search-form {
+		width: 270px;
+	}
+	.tr-promotion .promotion {
+	    background-position: 185px bottom;
+	}
+
+}

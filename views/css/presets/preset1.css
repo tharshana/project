@@ -1,0 +1,108 @@
+
+a:hover,
+a:focus,
+.topbar-content a:hover,
+.topbar-content .float-left .number,
+.navbar-nav .active>.nav-link,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.open,
+.navbar-nav .open>.nav-link,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover,
+.tr-menu .float-right li i:hover,
+.tr-menu .float-right li .icon:hover,
+.farmfood ul li .icon, .farmfood-two .farmfood .icon,
+.product-icon i, .product-icon .icon,
+.btn.btn-primary:hover, .product .price,
+.cta-info h2, .countdown li,
+.entry-content a:hover, .footer-widget h3,
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link.active,
+.pricing-one .time, .pricing-one h3 a:hover,
+.footer-bottom .select-option select,
+.topbar-two .select-option select option,
+.slider-two .btn.btn-primary, .footer-bottom .float-left a,
+.cta-two .btn.btn-primary, .testimonial-title h1,
+.pagination>.active>.page-numbers, .pagination>.active>.page-numbers:focus,
+.pagination>.active>.page-numbers:hover, .pagination>.active>span,
+.pagination>.active>span:focus, .pagination>.active>span:hover,
+.pagination>li>.page-numbers:focus, .pagination>li>.page-numbers:hover,
+.pagination>li>span:focus, .pagination>li>span:hover,
+.product-details-info .price, .product-details-info ul li:before,
+.add-to-cart span a, .quantity a:hover, .widget .post-date,
+.widget.widget_recent_entries a:hover, .contact-info .icon,
+.pricing .price.active>span, .pricing .price.active
+.btn.btn-primary:hover, .pricing .btn.btn-primary,
+.total-surface span, .blockquote span, .tr-follow,
+.comment-box .comment-meta a:hover,
+.user-account .btn.btn-primary:hover,
+.navbar-toggler-icon::before{
+    color: #219022;;
+}
+/**/
+.topbar-two path {
+	fill: #80b435;
+}
+
+.cart-number,
+.btn.btn-primary,
+.product-icon i:hover,
+.product-icon .icon:hover,
+.slick-dots li:hover,
+.slick-dots li.slick-active,
+.post-time span, .tagcloud a:hover,
+.ui-slider .ui-slider-handle,
+.ui-slider, .add-to-cart span:hover,
+.pagination>li>.page-numbers:before,
+.pagination>li>.page-numbers:after,
+.description-tabs>li>a:after,
+.pricing .price.active .btn.btn-primary,
+.pricing .btn.btn-primary:hover,
+.pricing.pricing-three .btn.btn-primary:hover {
+	background-color: #80b435;
+}
+
+.btn.btn-primary,
+.form-control:focus,
+.contact-form .form-control:focus,
+.pricing .price.active .btn.btn-primary,
+.pricing.pricing-three .price.active .btn.btn-primary,
+.pricing.pricing-three .btn.btn-primary:hover,
+.navbar-toggler-right {
+	border-color: #80b435;
+}
+
+.footer-widget .btn.btn-primary {
+	background-image: url(../../images/presets/preset1/submit.png);
+}
+
+.tr-comments .btn.btn-primary {
+	background-image: url(../../images/presets/preset1/submit1.png);
+}
+
+.cta-two {
+	background-image: url(../../images/presets/preset1/cta-bg.jpg);
+}
+
+
+.home-slider.slider-two{
+	background: rgb(30,170,157);
+	background: -moz-linear-gradient(45deg, rgb(30,170,157) 0%, rgb(169,229,82) 100%, rgb(125,185,232) 100%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgb(30,170,157)), color-stop(100%,rgb(169,229,82)), color-stop(100%,rgb(125,185,232)));
+	background: -webkit-linear-gradient(45deg, rgb(30,170,157) 0%,rgb(169,229,82) 100%,rgb(125,185,232) 100%);
+	background: -o-linear-gradient(45deg, rgb(30,170,157) 0%,rgb(169,229,82) 100%,rgb(125,185,232) 100%);
+	background: -ms-linear-gradient(45deg, rgb(30,170,157) 0%,rgb(169,229,82) 100%,rgb(125,185,232) 100%);
+	background: linear-gradient(45deg, rgb(30,170,157) 0%,rgb(169,229,82) 100%,rgb(125,185,232) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1eaa9d', endColorstr='#7db9e8',GradientType=1 );
+}
+
+.watch-video:before {
+	background: rgb(30,170,157,0.9);
+	background: -moz-linear-gradient(45deg, rgba(30,170,157,0.9) 0%, rgba(165,227,84,0.9) 100%, rgba(125,185,232,0.9) 100%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(30,170,157,0.9)), color-stop(100%,rgba(165,227,84,1)), color-stop(100%,rgba(125,185,232,1)));
+	background: -webkit-linear-gradient(45deg, rgba(30,170,157,0.9) 0%,rgba(165,227,84,0.9) 100%,rgba(125,185,232,0.9) 100%);
+	background: -o-linear-gradient(45deg, rgba(30,170,157,0.9) 0%,rgba(165,227,84,0.9) 100%,rgba(125,185,232,0.9) 100%);
+	background: -ms-linear-gradient(45deg, rgba(30,170,157,0.9) 0%,rgba(165,227,84,0.9) 100%,rgba(125,185,232,0.9) 100%);
+	background: linear-gradient(45deg, rgba(30,170,157,0.9) 0%,rgba(165,227,84,0.9) 100%,rgba(125,185,232,0.9) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1eaa9d', endColorstr='#7db9e8',GradientType=1 );
+}

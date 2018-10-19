@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from demo.themeregion.com/biotic/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 18 Sep 2018 12:32:21 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Theme Region">
+    <meta name="description" content="">
+
+    <title>Angaadi</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/animate.css" >
+    <link rel="stylesheet" href="css/fonts.css" >
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/structure.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link id="preset" rel="stylesheet" href="css/presets/preset1.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+
+    <!-- icons -->
+    <link rel="icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.html">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <!-- icons -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Template Developed By ThemeRegion -->
+</head>
+<body>
+<div class="tr-topbar">
+    <div class="container">
+        <div class="topbar-content">
+            <div class="float-left">
+                <span><span class="icon icon-phone-call"></span> Call us <span class="number">+94770059028</span></span>
+            </div>
+            <div class="float-right">
+                <div class="user-option">
+                    <span class="icon icon-avatar"></span>
+                    <!-- <a href="signin.html">Login</a>  / -->
+                    <% if(user){ %>
+                        <!--Welcome...!!--><a href=""><span class="glyphicon glyphicon-user"></span>
+                            <% if (user.twitter.username != null) { %>
+                                <%= user.twitter.username %>
+                            <% } else if (user.google.email != null) { %>
+                                <%= user.google.email %>
+                            <% } else if (user.facebook.name  != null)  { %>
+                                <%= user.facebook.name  %>
+                            <% } else { %>
+                                <%= user.local.lastName %>
+                            <% } %>
+                        </a>
+                        &nbsp
+                        <a href="/logout"><i class="fa fa-sign-out"></i>SignOut</a>
+                    <% } else{ %>
+                        <a href="/signup">Register</a>
+                    <% } %>
+                </div>
+            </div>
+        </div>
+    </div><!-- /.container -->
+</div><!-- /.tr-topbar -->
+
+<div class="tr-menu">
+    <nav class="navbar navbar-toggleable-md">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="hidden-md-up">
+                <a class="navbar-brand" href="/"><img class="img-fluid" src="images/logo.png" alt="Logo"></a>
+            </div>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav hidden-md-down">
+                    <li class="nav-item tr-dropdown active">
+                        <a class="nav-link" href="/">Home</a>
+                        <ul class="tr-dropdown-menu dropdown-left">
+                            <!-- <li class="nav-item active"><a class="nav-link" href="/">Home V-1</a></li> -->
+                            <!-- <li class="nav-item"><a class="nav-link" href="index1.html">Home V-2</a></li> -->
+                            <!-- <li class="nav-item"><a class="nav-link" href="index2.html">Home V-3</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="/shoplist">Store</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                    <li class="tr-middle-logo"><a class="navbar-brand" href="/"><img class="img-fluid" src="images/logo.png" alt="Logo"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
+                    <li class="nav-item tr-dropdown">
+                        <a class="nav-link" href="/admin">Admin</a>
+                        <!-- <ul class="tr-dropdown-menu">
+                            <li class="nav-item"><a class="nav-link" href="shoplist.ejs">Shop Details</a></li>
+                            <li class="nav-item"><a class="nav-link" href="blog-details.html">Blog Details</a></li>
+                            <li class="nav-item"><a class="nav-link" href="signup.html">Signup</a></li>
+                            <li class="nav-item"><a class="nav-link" href="signin.html">Signin</a></li>
+                        </ul> -->
+                    </li>
+                </ul>
+                        <ul class="navbar-nav hidden-md-up">
+                            <li class="nav-item tr-dropdown">
+                                <a class="nav-link" href="/">Home</a>
+                                <ul class="tr-dropdown-menu dropdown-left">
+                                    <!-- <li class="nav-item"><a class="nav-link" href="/">Home V-1</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="index1.html">Home V-2</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="index2.html">Home V-3</a></li> -->
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="shop-list.html">Store</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pricing.html">About</a></li>
+                          <li class="nav-item"><a class="nav-link" href="about.html">Gallery</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.ejs">Contact Us</a></li>
+                            <li class="nav-item tr-dropdown active">
+                                <a class="nav-link" href="admin.ejs">Admin</a>
+                                <!-- <ul class="tr-dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="shoplist.ejs">Shop Details</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="blog-details.html">Blog Details</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="signup.html">Signup</a></li>
+                                    <li class="nav-item active"><a class="nav-link" href="signin.html">Signin</a></li>
+                                </ul> -->
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+
+                    <div class="find-option float-right">
+                        <ul class="global-list">
+                            <li class="tr-search">
+                                <div class="search-icon"><span class="icon icon-magnifying-glass"></span></div>
+                                <div class="search-form">
+                                    <form action="#" id="search" method="get">
+                                        <input id="inputhead" name="search" type="text" placeholder="Type Your Words & Press Enter">
+                                        <button type="submit"><span class="icon icon-magnifying-glass"></span></button>
+                                    </form><!-- /form -->
+                                </div><!-- /s form -->
+                            </li>
+                            <li class="cart-content tr-dropdown">
+                                <a href="#"><span class="icon icon-shopping-basket"></span> <span class="cart-number">3</span></a>
+                                <div class="tr-dropdown-menu">
+                                    <ul class="global-list">
+                                        <li class="remove-item">
+                                            <span class="remove-icon"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            <div class="product">
+                                                <a href="details.html">
+                                                    <span class="product-image">
+                                                        <img src="images/product/1.jpg" alt="Image" class="img-fluid">
+                                                    </span>
+                                                    <span class="product-title">Organic <strong>Cabbage</strong></span>
+                                                    <span class="price"><del>$15.00</del>$12.00</span>
+                                                </a>
+                                            </div><!-- /.product -->
+                                        </li>
+                                        <li class="remove-item">
+                                            <span class="remove-icon"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            <div class="product">
+                                                <a href="details.html">
+                                                    <span class="product-image">
+                                                        <img src="images/product/1.jpg" alt="Image" class="img-fluid">
+                                                    </span>
+                                                    <span class="product-title">Organic <strong>Cabbage</strong></span>
+                                                    <span class="price"><del>$15.00</del>$12.00</span>
+                                                </a>
+                                            </div><!-- /.product -->
+                                        </li>
+                                    </ul>
+                                    <div class="total-price">
+                                        <span><strong>Total Price: </strong>$598:00</span>
+                                    </div>
+                                    <div class="buttons">
+                                        <a class="btn btn-primary cart-button" href="shopping-cart.html">View Cart</a>
+                                        <a class="btn btn-primary" href="#">Checkout</a>
+                                    </div>
+                                </div><!-- /.tr-dropdown-menu -->
+                            </li>
+                        </ul>
+                    </div><!-- /.find-option -->
+
+                </div><!-- /.container -->
+            </nav>
+        </div><!-- /.tr-menu -->
+
+        <div class="main-content bg-color">
+            <div class="container">
+                <div class="user-account text-center" style="">
+                    <div class="account-content">
+                        <div class="logo">
+                            <a href="/"><img class="img-fluid" src="images/logo.png" alt="Logo"></a>
+                        </div>
+                        <h1></h1>
+                        <!-- <p>Subscribe now and get a exlusive five-mounth trial time. </p> -->
+                        <form action="#" class="tr-form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Vegetables name" required="required">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="weight" required="required">
+                            </div>
+                            <div class="form-group">
+                                <input type=text class="form-control" placeholder="Price" required="required">
+                            </div>
+                            <input type="submit" class="btn btn-primary" value="Add">
+                            <div class="forgot-password">
+                                <a href="#"></a>
+                            </div>
+                        </form>
+                        <!-- <ul class="global-list social">
+                            <li class="pull-left"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="pull-right"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        </ul> -->
+                    </div><!-- /.account-content -->
+                </div><!-- /.user-account  -->
+            </div><!-- /.container -->
+        </div><!-- /.main-content -->
+<hr>
+        <div class="tr-footer section-bg-#EDF3EB">
+            <div class="footer-top section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="footer-widget">
+                                <div class="footer-logo">
+                                    <a href="/"><img src="images/logo.png" alt="Logo" class="img-fluid"></a>
+                                </div>
+                               <p>Angaadi gives a platform to farmers who plant Organic Vegetables and herbs to sell their products in online and It helps people to buy organic vegetables and herbs through our site.</p>
+
+
+                                <div class="footer-social">
+                                    <ul class="global-list">
+                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div><!-- /.footer-widget -->
+                        </div>
+                        <div class="col-md-2">
+                            <div class="footer-widget">
+                                <h3>Quick Link</h3>
+                                <ul class="global-list">
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="shop-list.html">Store</a></li>
+                                    <li><a href="pricing.html">About</a></li>
+                                    <li><a href="about.html">Gallery</a></li>
+                                    <li><a href="contact.ejs">Contact</a></li>
+                                    <li><a href="admin.ejs">Admin</a></li>
+                                </ul>
+                            </div><!-- /.footer-widget -->
+                        </div>
+                        <div class="col-md-2 col-lg-3">
+                            <div class="footer-widget">
+                                <h3>Product</h3>
+                                <ul class="global-list">
+                                    <li><a href="/">Organic Vegetables</a></li>
+                                    <li><a href="#">Traditional Foods</a></li>
+                                    <li><a href="#">Ayurveda Herbs</a></li>
+
+                                </ul>
+                            </div><!-- /.footer-widget -->
+                        </div>
+                        <div class="col-md-5 col-lg-4">
+                            <div class="footer-widget">
+                                <h3>Contact</h3>
+                                <ul class="global-list">
+                                    <li><a href="#">Kondavil East,Kondavil,<br>Jaffna,Sri Lanka </a></li>
+                                    <li><a href="#">Angaadi@gmail.com</a></li>
+                                    <li><a href="#">0770059028</a></li>
+                                  </ul>
+                                <!-- <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p> -->
+                                <form method="post" action="#">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" required="required" placeholder="Enter Your Email Address">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" class="btn btn-primary">
+                                    </div>
+                                </form>
+                            </div><!-- /.footer-widget -->
+                        </div>
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.footer-top -->
+
+            <div class="footer-bottom clearfix">
+                <div class="container">
+                    <div class="float-right">
+                        <div class="float-left">
+                        ><!-- /.payment-card -->
+                        <!-- <div class="float-right">
+                            <ul class="select-option global-list">
+                                <li>
+                                    <span>Language:</span>
+                                    <select>
+                                        <option value="#">EN</option>
+                                        <option value="#">BAN</option>
+                                        <option value="#">EN</option>
+                                        <option value="#">BAN</option>
+                                    </select>
+                                </li>
+                                <li>
+                                    <span>Price:</span>
+                                    <select>
+                                        <option value="#">USD</option>
+                                        <option value="#">RUS</option>
+                                        <option value="#">USD</option>
+                                        <option value="#">RUS</option>
+                                    </select>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> -->
+                    <div class="float-left">
+                        <span>Copyright &copy; 2018 <a href="/">Angaadi</a> - All Rights Reserved.</span>
+                    </div>
+                </div><!-- /.container -->
+            </div><!-- /.footer-bottom -->
+        </div><!-- /.tr-footer -->
+
+        <!--/Preset Style Chooser-->
+        <div class="style-chooser">
+            <div class="style-chooser-inner">
+
+                <h4>Presets</h4>
+                <ul class="preset-list clearfix">
+                    <li class="preset1 active" data-preset="1"><a href="#" data-color="preset1"></a></li>
+                    <li class="preset2" data-preset="2"><a href="#" data-color="preset2"></a></li>
+                    <li class="preset3" data-preset="3"><a href="#" data-color="preset3"></a></li>
+                    <li class="preset4" data-preset="4"><a href="#" data-color="preset4"></a></li>
+                    <li class="preset5" data-preset="5"><a href="#" data-color="preset5"></a></li>
+                    <li class="preset6" data-preset="6"><a href="#" data-color="preset6"></a></li>
+                </ul>
+            </div>
+        </div>
+        <!--/End:Preset Style Chooser-->
+
+
+        <!-- JS -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/tether.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/countdown.js"></script>
+        <script src="js/magnific-popup.min.js"></script>
+        <script src="js/jquery-ui-min.js"></script>
+        <script src="js/jquery.spinner.min.js"></script>
+        <script src="js/carousel-touch.js"></script>
+        <script src="js/switcher.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+
+<!-- Mirrored from demo.themeregion.com/biotic/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 18 Sep 2018 12:32:21 GMT -->
+</html>
