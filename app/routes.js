@@ -74,7 +74,7 @@ module.exports = function(app, passport) {
             user : req.user
         }); // load the index.ejs file
     });
-    app.get('/admin', isLoggedIn, function(req, res) {
+    app.get('/admin', isMoggedIn, function(req, res) {
         res.render('admin.ejs' ,{
             user : req.user
         }); // load the index.ejs file
@@ -300,4 +300,15 @@ function isLoggedIn(req, res, next) {
 
     // if they aren't redirect them to the home page
     res.redirect('/booklogin');
+}
+
+
+function isMoggedIn(req, res, next) {
+
+    // if user is authenticated in the session, carry on
+    if (req.isAuthenticated())
+        return next();
+
+    // if they aren't redirect them to the home page
+    res.redirect('/login');
 }
