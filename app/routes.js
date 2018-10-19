@@ -21,8 +21,22 @@ module.exports = function(app, passport) {
         });
         // load the index.ejs file
     });
+
+    app.get('/g1', (req, res)=>{
+      res.render('g1.ejs')
+    })
+
+    app.get('/g2', (req, res)=>{
+      res.render('g2.ejs')
+    })
+
+    app.get('/g3', (req, res)=>{
+      res.render('g3.ejs')
+    })
+
+
     app.get('/gallery', function(req, res) {
-        res.render('gallery.ejs', {
+        res.render('g1.ejs', {
             user : req.user
         });
         // load the index.ejs file
@@ -60,7 +74,7 @@ module.exports = function(app, passport) {
             user : req.user
         }); // load the index.ejs file
     });
-    app.get('/admin', function(req, res) {
+    app.get('/admin', isLoggedIn, function(req, res) {
         res.render('admin.ejs' ,{
             user : req.user
         }); // load the index.ejs file
